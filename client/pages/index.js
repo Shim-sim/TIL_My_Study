@@ -1,5 +1,11 @@
+import MsgList from "../components/MsgList";
+
 const Home = () => {
-  return <div>홈이당</div>;
+  return (
+    <div>
+      <MsgList />
+    </div>
+  );
 };
 
 export default Home;
